@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prise de rendez-vous</title>
+    <link rel="stylesheet" href="../css/rendezvous.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/index.html"
+        ><img
+          src="../images/logo.png"
+          alt="logo"
+          class="logo"
+          height="50"
+          width="80"
+          id="logo"
+      /></a>
+    </nav>
+    <div class="container">
+      <div class="image-container">
+        <img src="../images/rendez_vous.jpg" alt="Image" class="image" />
+      </div>
+      <div class="appointment-form">
+        <h2>Prise de rendez-vous</h2>
+        <form action="#" method="POST">
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+          <label for="date">Date :</label>
+          <input type="date" id="date" name="date" required />
+          <label for="time">Heure :</label>
+          <input type="time" id="time" name="time" required />
+          <button type="submit">Réserver</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
